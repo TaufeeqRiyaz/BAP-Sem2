@@ -18,9 +18,8 @@ print(squares)
 
 # return a list that prince tem btw 70 to 79 from temps
 temps = [68.8, 70.2, 67.2, 71.8, 73.2, 75.6, 74.0]
-temp_dict = {day: temp for day, temp in zip(days, temps)}
-print(temp_dict)
-days = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
-print([temp for temp in temps if temp >= 70 and temp <= 79])
+
+sorted_temp = {day: temp for day, temp in zip(days, temps) if 70 <= temp <= 79}
+print(sorted_temp)
 
 # %%

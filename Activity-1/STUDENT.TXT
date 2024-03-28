@@ -1,0 +1,5 @@
+1, Taufeeq Riyaz, 80
+2, Pushan T, 90
+3, Sagar N Rao, 80
+4, Samarth K Swarup, 60
+5, Daiwik, 100
